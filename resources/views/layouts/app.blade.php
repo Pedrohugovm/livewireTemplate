@@ -15,6 +15,8 @@
         @vite(['resources/css/app.css', 'resources/js/app.js'])
 
         <!-- Styles -->
+        <script src="https://cdn.tailwindcss.com/?plugins=forms"></script>
+        
         @livewireStyles
     </head>
     <body class="font-sans antialiased">
